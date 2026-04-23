@@ -7,5 +7,6 @@ A responsive video streaming landing page built for INF course.
 - Browse grid
 - Show details page
 
+
 ## Built with
 HTML, CSS, JavaScript
