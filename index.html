@@ -1,52 +1,53 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StreamBox</title>
+
+    <!-- Lien vers ton CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- HEADER -->
     <header>
         <h1>StreamBox</h1>
-        <p>Your favorite streaming platform</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shows</a>
+            <a href="#">About</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Shows</a>
-        <a href="#">Categories</a>
-        <a href="#">About</a>
-    </nav>
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <h2>Stream what you love</h2>
+        <p>Anytime, anywhere</p>
+        <button class="btn-primary">Browse</button>
+    </section>
 
-    <main>
+    <!-- MOVIE CARDS -->
+    <section>
+        <div class="card">
+            <h3>Show 1</h3>
+            <p>Drama</p>
+        </div>
 
-        <section id="hero">
-            <h2>Welcome to StreamBox</h2>
-            <p>Watch your favorite shows anytime</p>
-        </section>
+        <div class="card">
+            <h3>Show 2</h3>
+            <p>comedy</p>
+        </div>
 
-        <section id="featured">
-            <h2>Featured Shows</h2>
+        <div class="card">
+            <h3>Show 3</h3>
+            <p>Action</p>
+        </div>
+    </section>
 
-            <article>
-                <h3>Show 1</h3>
-                <p>Description of show 1</p>
-            </article>
-
-            <article>
-                <h3>Show 2</h3>
-                <p>Description of show 2</p>
-            </article>
-
-            <article>
-                <h3>Show 3</h3>
-                <p>Description of show 3</p>
-            </article>
-
-        </section>
-
-    </main>
-
-    <footer>
+    <!-- FOOTER -->
+    <footer style="text-align:center; padding:20px;">
         <p>© 2026 StreamBox</p>
     </footer>
 
